@@ -1,0 +1,123 @@
+body {
+    background: #E9EBF3;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: medium;
+}
+
+.logo {
+    cursor:not-allowed;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.primary-button {
+    background: #1A1A1A;
+    color: white;
+}
+
+.secondary-button {
+    color: #1A1A1A;
+    background: #DCDCDC;
+}
+
+@media only screen and (min-width: 1200px) {
+
+    body {
+        margin: 7em 10em;
+        font-size: 1.5em;
+    }
+
+    .logo {
+        width: 10em;
+    }
+
+    .introduction {
+        margin-top: 2em;
+        width: 50%;
+        margin-bottom: 4em;
+    }
+
+    a {
+        border-radius: 0.3em;
+        padding: 1em 1.7em;
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1200px) {
+
+    body {
+        margin: 7em 7em;
+        font-size: 1.4em;
+    }
+
+    .logo {
+        width: 9em;
+    }
+
+    .introduction {
+        margin-top: 1.5em;
+        width: 70%;
+        margin-bottom: 3em;
+    }
+
+    a {
+        font-size: 1em;
+        border-radius: 0.3em;
+        padding: 0.8em 1.4em;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+
+    body {
+        margin: 7em 4em;
+        font-size: 1.4em;
+    }
+
+    .logo {
+        width: 9em;
+    }
+
+    .introduction {
+        margin-top: 1.5em;
+        width: 70%;
+        margin-bottom: 2em;
+    }
+
+    a {
+        display: inline-block;
+        font-size: 1em;
+        border-radius: 0.3em;
+        padding: 0.8em 1.4em;
+        margin-bottom: 0.8em;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    body {
+        margin: 4em 2em;
+        font-size: 1.3em;
+    }
+
+    .logo {
+        width: 8em;
+    }
+
+    .introduction {
+        margin-top: 3em;
+        width: 80%;
+        margin-bottom: 4em;
+    }
+
+    a {
+        display: inline-block;
+        font-size: 1em;
+        border-radius: 0.3em;
+        padding: 0.8em 1.4em;
+        margin-bottom: 0.8em;
+    }
+}
